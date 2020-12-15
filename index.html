@@ -10,19 +10,19 @@
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <title>Tailwind Tutorial</title>
   </head>
-  <body>
+  <body class="text-gray-600">
     <div class="">
         <div class="">
           <nav>
             <div class="">
-              <h1>
+              <h1 class="font-bold uppercase p-4 border-b border-gray-100">
                 <a href="/">Tailwind Food</a>
               </h1>
             </div>
             <ul>
-              <li>
+              <li class="text-gray-700">
                 <a href="#">
-                <span>Home</span>
+                <span class="font-bold">Home</span>
                 </a>
               </li>
               <li>
@@ -39,25 +39,25 @@
           </nav>
         </div> <!-- end nav -->
 
-        <main>
+        <main class="px-16 py-6">
           <div class="">
             <a href="#">Log in</a>
             <a href="#">Sign up</a>
           </div>
-        </main>
+
 
         <header>
-          <h2>Recipes</h2>
-          <h2>For tailwind</h2>
+          <h2 class="text-gray-700 text-6xl font-semibold">Recipes</h2>
+          <h3 class="text-lg font-semibold py-4">For tailwind</h3>
         </header>
 
         <div class="">
-            <h4>Latest Recipes</h4>
+            <h4 class="font-bold mt-12 pb-2 border-b border-gray-200">Latest Recipes</h4>
 
-            <div class="">
+            <div class="mt-8">
               <!-- cards go here -->
               <div class="">
-                <img src="" alt="">
+                <img src="./src/images/do-mee-SH8_JmrsQcw-unsplash.jpg" alt="stew" class="w-72">
                 <div class="">
                   <span>5 bean chilli stew</span>
                   <span>Recipe by Mario</span>
@@ -65,17 +65,18 @@
               </div>
             </div>
 
-            <h4>Most Populer</h4>
-            <div class="">
+            <h4 class="font-bold mt-12 border-b border-gray-200">Most Populer</h4>
+
+            <div class="mt-8">
               <!-- cards go here -->
             </div>
 
             <div class="">
-              <div class="">
+              <div class=""> Load more</div>
 
-              </div>
             </div>
         </div>
+      </main>
     </div>
   </body>
 </html>
